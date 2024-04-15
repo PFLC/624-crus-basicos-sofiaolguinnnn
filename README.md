@@ -1,65 +1,68 @@
-# PHP CRUD Application
 
-This repository contains a simple PHP CRUD (Create, Read, Update, Delete) application. It's a basic demonstration of how to integrate PHP with a MySQL database to manage user data. The application allows users to add, view, edit, and delete user information.
+# Aplicación CRUD de PHP
 
-## Tech Stack
+Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete) simple. Es una demostración básica de cómo integrar PHP con una base de datos MySQL para gestionar datos de usuarios. La aplicación permite a los usuarios agregar, ver, editar y eliminar información de usuario.
 
-- **PHP:** Server-side scripting language used for web development.
-- **MySQL:** Database management system used for storing user data.
-- **HTML & CSS:** Used for structuring and styling the web pages.
-- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+## Tecnologías Utilizadas
 
-## Pages and Features
+- **PHP:** Lenguaje de script del lado del servidor utilizado para el desarrollo web.
+- **MySQL:** Sistema de gestión de base de datos utilizado para almacenar datos de usuario.
+- **HTML & CSS:** Utilizados para estructurar y dar estilo a las páginas web.
+- **Tailwind CSS:** Un framework de CSS utilitario para el desarrollo rápido de interfaces de usuario.
 
-### 1. Home Page (`display.php`)
+## Páginas y Funcionalidades
 
-![Home Page](images/display.png)
+### 1. Página de Inicio (`display.php`)
 
-- **Functionality:** Displays all users from the database in a table format.
-- **Features:** 
-  - View all users.
-  - Navigation links to add, edit, or delete user information.
+![Página de Inicio](images/display.png)
 
-### 2. Add User (`user.php`)
+- **Funcionalidad:** Muestra todos los usuarios de la base de datos en un formato de tabla.
+- **Características:** 
+  - Ver todos los usuarios.
+  - Enlaces de navegación para agregar, editar o eliminar información de usuario.
 
-![Add User](images/add.png)
+### 2. Agregar Usuario (`user.php`)
 
-- **Functionality:** Allows adding a new user to the database.
-- **Features:** 
-  - Form to input user details (name, email, mobile, password).
-  - Data validation and submission to the database.
+![Agregar Usuario](images/add.png)
 
-### 3. Edit User (`edit.php`)
+- **Funcionalidad:** Permite agregar un nuevo usuario a la base de datos.
+- **Características:** 
+  - Formulario para ingresar detalles del usuario (nombre, correo electrónico, teléfono móvil, contraseña).
+  - Validación de datos y envío a la base de datos.
 
-![Edit User](images/edit.png)
+### 3. Editar Usuario (`edit.php`)
 
-- **Functionality:** Enables editing details of existing users.
-- **Features:** 
-  - Pre-filled form with user's current information.
-  - Update user details in the database.
+![Editar Usuario](images/edit.png)
 
-### 4. Delete User (`delete.php`)
+- **Funcionalidad:** Permite editar detalles de usuarios existentes.
+- **Características:** 
+  - Formulario prellenado con la información actual del usuario.
+  - Actualización de detalles del usuario en la base de datos.
 
-- **Functionality:** Facilitates the deletion of a user from the database.
-- **Features:** 
-  - Deletion of user information based on user ID.
+### 4. Eliminar Usuario (`delete.php`)
 
-## Database Connection (`connect.php`)
+- **Funcionalidad:** Facilita la eliminación de un usuario de la base de datos.
+- **Características:** 
+  - Eliminación de información de usuario basada en el ID de usuario.
 
-- **Purpose:** Establishes a connection to the MySQL database.
-- **Credentials:** Uses hostname, username, password, and database name for connection.
+## Conexión a la Base de Datos (`connect.php`)
 
-## How to Run
+- **Propósito:** Establece una conexión con la base de datos MySQL.
+- **Credenciales:** Utiliza nombre de host, nombre de usuario, contraseña y nombre de la base de datos para la conexión.
 
-1. Clone the repository to your local machine.
-2. Set up a PHP and MySQL environment (like XAMPP).
-3. Create the database using phpmyadmin.
-4. Run the application on a local server.
+## Cómo Ejecutar
 
-## Security Note
+1. Clona el repositorio en tu máquina local.
+2. Configura un entorno PHP y MySQL (como XAMPP).
+3. Crea la base de datos usando phpmyadmin.
+4. Ejecuta la aplicación en un servidor local.
 
-This application is a basic demonstration and does not implement advanced security measures. It's advisable to use prepared statements or ORM for database interactions to prevent SQL injection attacks.
+## Nota de Seguridad
+
+Esta aplicación es una demostración básica y no implementa medidas avanzadas de seguridad. Es recomendable utilizar declaraciones preparadas (prepared statements) u ORM para las interacciones con la base de datos para prevenir ataques de inyección SQL.
 
 ---
 
-Feel free to contribute to this project or suggest improvements. For any queries or issues, please open an issue in this repository.
+Siéntete libre de contribuir a este proyecto o sugerir mejoras. Para cualquier consulta o problema, por favor abre un issue en este repositorio.
+```
+
