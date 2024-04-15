@@ -58,12 +58,12 @@ Consideraciones de Seguridad: Se advierte que la aplicación es básica y se rec
 
 ## Tips para Usar CRUD de Forma Efectiva
 
-1. Planifica la Estructura de tu Base de Datos
-2. Implementa Validación de Datos en el Frontend y Backend
-3. Usa Mensajes de Confirmación y Advertencia
-4. Proporciona Retroalimentación en Tiempo Real
-5. Limita el Acceso a las Funcionalidades según los Permisos del Usuario
-6. Realiza Copias de Seguridad Regularmente
+1. Planifica la Estructura de tu Base de Datos: Define la estructura de tu base de datos antes de comenzar.
+2. Implementa Validación de Datos en el Frontend y Backend: Verifica los datos ingresados por los usuarios para evitar errores y mantener la integridad de los datos.
+3. Usa Mensajes de Confirmación y Advertencia: Proporciona mensajes claros de confirmación y advertencia para guiar a los usuarios.
+4. Proporciona Retroalimentación en Tiempo Real: Actualiza la interfaz de usuario en tiempo real para reflejar los cambios.
+5. Limita el Acceso a las Funcionalidades según los Permisos del Usuario: Limita el acceso a las funcionalidades según los permisos del usuario para garantizar la seguridad.
+6. Realiza Copias de Seguridad Regularmente: Realiza copias de seguridad periódicas para proteger tus datos contra pérdidas accidentales.
 
 Implementando estos consejos, podrás aprovechar al máximo tu aplicación CRUD y garantizar una gestión eficiente y segura de tus datos de usuario.
 
