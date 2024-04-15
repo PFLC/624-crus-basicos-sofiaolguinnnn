@@ -19,7 +19,7 @@ Descripción del Proyecto: Este proyecto consiste en una aplicación web desarro
 - Muestra una tabla con todos los usuarios almacenados en la base de datos.
 - Proporciona enlaces para agregar, editar o eliminar usuarios.
 - Permite realizar todas las operaciones CRUD desde una sola interfaz.
-- 
+  
 ### 2. Agregar Usuario (`user.php`)
 
 ![Agregar Usuario](images/add.png)
